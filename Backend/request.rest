@@ -1,0 +1,21 @@
+GET http://localhost:5000 
+Content-Type: application/json;
+
+###
+POST http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "name":"stan",
+    "email":"arunakil12@gmail.com",
+    "Number":9080371821 
+}
+
+###
+PUT http://localhost:5000/user/edit
+Content-Type: application/json
+
+{
+    "id":"64887610c351f3979a4796d8",
+    "name":"jayakumar"
+}

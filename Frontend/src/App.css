@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputcont{
+  max-width: 400px !important;
+}
+
+input{
+  min-width: 300px !important;
+  width:auto;
+}
+
+.subbtn{
+  border-radius: 0 !important;
+}
+
+.subbtn a{
+text-decoration: none;
+color: white !important;
+}
+.subbtn2 a{
+  text-decoration: none;
+  color: rgb(6, 118, 246);
+  }
+  .subbtn3 a{
+    text-decoration: none;
+    color:red !important;
+    }
+
+.subbtn2{
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  font-size: 22px !important;
+  padding: 0px !important;
+}
+
+.subbtn3{
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: red !important;
+  font-size: 22px !important;
+  padding: 0px !important;
+}
